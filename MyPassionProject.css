@@ -1,0 +1,18 @@
+h1{
+	text-align: center;
+}
+p{
+	text-align: justify;
+	background: maroon;
+	color: silver;
+}	
+body{
+	background: gold;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.fifty {
+	display: inline-block;
+}
+li{
+	display: inline-block;
+}
