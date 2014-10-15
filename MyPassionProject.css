@@ -1,6 +1,9 @@
 h1{
 	text-align: center;
 }
+.pinktext{
+
+}
 p{
 	text-align: justify;
 	background: maroon;
@@ -10,9 +13,12 @@ body{
 	background: gold;
 	font-family: 'Love Ya Like A Sister', cursive;
 }
-.fifty {
+.fifty{
 	display: inline-block;
 }
 li{
 	display: inline-block;
+}
+.whitetext{
+	color: white;
 }
