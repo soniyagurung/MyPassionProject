@@ -1,24 +1,54 @@
 h1{
 	text-align: center;
-}
-.pinktext{
-
+	font-size: 500%;
+	color: black;
 }
 p{
 	text-align: justify;
 	background: maroon;
 	color: silver;
 }	
+
 body{
-	background: gold;
+	background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	font-family: 'Love Ya Like A Sister', cursive;
 }
-.fifty{
-	display: inline-block;
+li {
+  font-size: 150%;
 }
-li{
-	display: inline-block;
+.goldtext{
+	color: gold;
 }
-.whitetext{
-	color: white;
+hr{
+   height: 50px;
+   background: url(hr.png) no-repeat center;
+   border: double;
+}
+img.family{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#connect{
+  font-size: 150%;
+  color: blue;
+  background-color: transparent;
+}
+
+#connect2{
+  font-size: 150%;
+  color:red;
+  background-color: transparent;
+}
+
+.email{
+   width:150px;
+   height:40px;
+   border:2px solid black;
+   background: white;
+   font-size: 100%;
 }

@@ -4,38 +4,94 @@
 	<head>
         <link rel="stylesheet" type="text/css" href="MyPassionProject.css">	
         <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
-	<title>My Passions</title>
+	<title>Soniya's Passion.</title>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+height: 200px;
+font-size: 12px;
+color: #9CADD0;
+background-color: white;
+}
+
+</style>
+<script type="text/javascript">
+function load() {
+var feed ="http://feeds.bbci.co.uk/news/world/rss.xml";
+new GFdynamicFeedControl(feed, "feedControl");
+
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
 	</head>
 
 	<body>
 
-		<h1>What does Soniya love?</h1>
+		<h1>MY PASSION.</h1>
 	
 		<ul>
-		<li>Family</li>	
-		<li>Friends</li>
-		<li>Travelling</li>
+			<li><a href="#AboutMe">About Me</a></li>	
+			<li><a href="#ContactInformation">Contact Information</a></li>
+			<li><a href="#Extra">Extra</a></li>
 		<ul>
+<hr>
+		<div id="AboutMe">
+			<p> My name is <span class="goldtext">Soniya Gurung.</span> I am currently living and studying in <span class="goldtext">New York City.</span> I was born in <span class="goldtext">Singapore</span> but my parents are from <span class="goldtext">Nepal.</span> I am passionate about learning what is happening in the world.
+			</p>
 
-		<p> I am passionate about learning about the world. <span class="whitetext">My goal is to remember the names, the capital cities, the leaders, and the national language(s) of all of the countries. </span> I am also passionate about staying updated on what is happening in other parts of the world and I enjoy spending my time reading the top stories in newspapers and magazines. </p>
-		
-		<div class="fifty">
-		<img src="globe.jpg">
+        	<p> I enjoy eating good food, playing sports, meeting interesting people, and travelling. Most importantly, <span class="goldtext">I love my family.</span>
+        	</p>
+     
+        	<img src="family.jpg" width="350" height="350" class="family">
+    	</div>
+<hr> 
+    	<div id="ContactInformation">
+    		<p>You can send me an email by filling out the form below!
+    		</p> 
+    		<form action="mailto:sg3118@barnard.edu" method="post" enctype="text/plain">
+			Name:<br>
+			<input type="text" name="name" value="your name"><br>
+			E-mail:<br>
+			<input type="text" name="mail" value="your email"><br>
+			Message:<br>
+			<input type="text" name="message" value="your message" size="50"><br><br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+			</form>
+
+    		<p id="connect">Or connect with me on:<a href="https://www.facebook.com/soniyahh35"><img src="https://www.facebook.com/images/fb_icon_325x325.png" width="40" height="40"/></a></p> 
+
+    		<p id="connect2">If you have some free time, watch my very first travel video: <a href="https://www.youtube.com/watch?v=Lk45A1HQrWE"><img src="http://s.ytimg.com/yts/img/youtube_logo_stacked-vfl225ZTx.png" width="40" height="40"/></a></p>                 
+
+			<p>If you want to reach me by snail mail, you can do so at: 
+			<span class="goldtext">5493 Altschul
+			New York, NY 10027</span> <img src="http://www.chantalnephin.com/wp-content/uploads/2012/06/Mailbox.png" width="30" height="30" /></p>
+
+    	</div>
+
+<hr>
+
+		<div id="Extra">
+			<p> Stay updated on what's happening around the world!</p>
+			<div id="body">
+			<div id="feedControl">Loading...</div>
+			</div>
+
+			<p><span class="goldtext">Thank you</span> for visiting my website. <span class="goldtext">Be kind to all </span> and good luck! </p>
+
+<hr>
+
 		</div>
-
-        <p> I am currently living and studying in New York City. <span class="whitetext">I was born in Singapore but my parents are from Nepal. </span>I enjoy eating good food (desserts!) and I crave for an adventure. <span class="whitetext">Peace! </span></p>
-
-        <div class="pictures">
-        
-        <div class="fifty">
-        <img src="family.jpg">
-    	</div>
-        
-    	<div class="fifty">
-        <img src="desserts.jpg">
-    	</div>
-
-    	</div>
 
 	</body>
 
